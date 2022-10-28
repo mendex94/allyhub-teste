@@ -1,0 +1,2 @@
+export const getCountryData = async () => await (await fetch('https://amazon-api.sellead.com/country')).json();
+export const getCityData = async () => await (await fetch('https://amazon-api.sellead.com/city')).json();
