@@ -1,27 +1,20 @@
-# Next.js + Tailwind CSS Example
+# Objetivo </br>
+● Criar uma interface web para marcar Destinos de Interesse. </br>
+## Requisitos Obrigatórios </br>
+● Interface deve ser feita em React. </br>
+● O formulário deverá conter os seguintes campos: </br>
+  ○ Nome </br>
+  ○ Email </br>
+  ○ Telefone </br>
+  ○ CPF </br>
+  ○ País </br>
+  ○ Cidade </br>
+● Todos os campos devem ser obrigatórios </br>
+● Os campos de País e Cidade devem permitir a seleção de múltiplas opções. </br>
+● Os países precisam ser buscados na API, seguindo as instruções abaixo. </br>
+○ Fazer uma requisição GET para a rota: https://amazon-api.sellead.com/country 
+para popular o select de países.</br>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+● As cidades precisam ser buscadas na API, seguindo as instruções abaixo.</br>
+○ Fazer uma requisição GET para a rota: https://amazon-api.sellead.com/city para
+popular o select de cidades.
